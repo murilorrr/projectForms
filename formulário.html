@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Profissional</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="título">Cadastro de Profissões</h1>
+        <p id="subtítulo">Complete suas informações</p>
+    </div>
+
+    <form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="Nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label for=""><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+    <div>
+        <label for="profissão"><strong>Digite aqui sua profissão e marque sua experiência</strong><br></label>
+        <input type="text" name="profissão" id="profissão" required><br>
+        <div class="campo">
+            <label for="junior">Junior</label>
+            <input type="radio" id="junior" name="experiência" value="junior" checked>
+            <label for="pleno">Pleno</label>
+            <input type="radio" id="pleno" name="experiência" value="pleno">
+            <label for="senior">Senior</label>
+            <input type="radio" id="senior" name="experiência" value="senior">
+            <label for="outro">Outro</label>
+            <input type="radio" id="outro" name="experiência" value="outro">
+        </div>  
+        </div>
+    <fieldset class="grupo">
+        <div class="campo">
+        
+            <label for="satisfação">Você está satisfeito com seu trabalho?</label>
+            <select id="satisfação">
+                <option selected disable value="">Selecione...</option>
+                <option value="pouco">Pouco satisfeito</option>
+                <option value="satisfeito">Satisfeito</option>
+                <option value="muito satisfeito">Muito Satisfeito</option>
+            </select>
+        </div>
+        <div>
+        
+            <label for="melhoras"><strong>Ainda que esteja muito safisteito sempre há como melhorar não é?<br>Marque as opções que podem ser melhoradas em seu ambiente de trabalho.</strong><br>
+                <input type="checkbox" id="comunicação" name="softskills">Comunicação
+                <input type="checkbox" id="liderança" name="softskills">Liderança
+                <input type="checkbox" id="flexibilidade e resiliência" name="softskills">Flexibilidade e resiliência
+                <input type="checkbox" id="trabalho em equipe" name="softskills"> Trabalho em equipe
+                <input type="checkbox" id="criatividade" name="softskills">Criatividade
+                <input type="checkbox" id="proatividade" name="softskills">Proatividade
+                <input type="checkbox" id="empatia" name="softskills">Empatia
+                <input type="checkbox" id="ética no trabalho" name="softskills">Ética no trabalho
+            </label>
+        </div id="check">
+    </fieldset>
+    <div>
+        <label><strong>Conte um pouco de sua experiência pra gente</strong><br></label>
+        <textarea type="text" name="estória" id="" cols="76" rows="10"></textarea>
+    </div>
+    <button class="botão" type="submit">Concluido</button>
+    
+
+
+</form>
+</body>
+</html>

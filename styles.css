@@ -1,0 +1,19 @@
+body{
+    background-color: #5F7187;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 29%;
+    margin-top: 2%;
+    margin-right: 23%;
+    justify-content: center;
+}
+[type="text"]:focus,[type="email"]:focus {
+    background-color: #5991B1;
+}
+input nome{
+    border-radius: 10px solid #8B4D93;
+}
+#check {
+    display: inline-block;
+}
