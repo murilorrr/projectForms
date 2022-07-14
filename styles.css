@@ -1,8 +1,8 @@
 body{
-    background-color: #5F7187;
+    background-color: #343639;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
+    color: #c9c0ed;
     margin-left: 29%;
     margin-top: 2%;
     margin-right: 23%;
@@ -16,4 +16,7 @@ input nome{
 }
 #check {
     display: inline-block;
+}
+div, fieldset{
+    margin-bottom: 20px;
 }
